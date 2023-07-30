@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Kanit&display=swap);
 @font-face {
     font-family: 'FonteL';
-    src: url("../_fonts/bubblegum-sans-regular.otf");
+    src: url("../fonts/bubblegum-sans-regular.otf");
 }
 
 /*
@@ -138,7 +138,7 @@ header#c img#ic{
 header#c{
     border-bottom: 1px #606060 solid;
     height: 110px;
-    /*background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;*/
+    /*background: url("../imagens/glass-logo-peq.jpg") no-repeat 0px 80px;*/
 }
 
 header#c h1{
