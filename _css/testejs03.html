@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste JavaScript 3</title>
+    <script>
+        var q = false;
+      function mLampada(tp) {
+          if (!q) {
+              document.getElementById("l").src = "../_imagens/" + tp +".jpg";
+              if (tp == 'lampada-quebrada'){
+                  q = true;
+              }
+          }
+      }
+    </script>
+</head>
+<body>
+  <h1>Acenda a Lâmpada</h1>
+  <img src="../_imagens/lampada-apagada.jpg" id="l" onmousemove="mLampada('lampada-acesa')" onmouseout="mLampada('lampada-apagada')" onclick="mLampada('lampada-quebrada')">
+</body>
+</html>

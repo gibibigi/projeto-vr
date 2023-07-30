@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Kanit&display=swap);
+
+section#caa{
+    width: 900px;
+    margin: auto;
+}
+
+iframe#ij{
+    width: 395px;
+    height: 250px;
+    border: none;
+    overflow: hidden;
+}
+
+iframe#ij::-webkit-scrollbar{
+    display: none;
+}
+
+article#np p{
+    font-family: 'Kanit' , sans-serif;
+    font-size: small;
+}
